@@ -1,0 +1,15 @@
+###Get all notes
+GET http://localhost:3001/api/notes
+
+###Get note with id 10
+GET http://localhost:3001/api/notes/10
+
+###Add a note
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Postman is good in testing backend",
+  "important": true
+}
+
