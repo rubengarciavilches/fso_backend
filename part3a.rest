@@ -9,7 +9,7 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "Postman is good in testing backend",
+  "content": "But I prefer using webstorm",
   "important": true
 }
 
